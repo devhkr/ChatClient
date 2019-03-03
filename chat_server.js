@@ -16,6 +16,7 @@ function wsSend(type, client_uuid, nickname, message) {
         }
     }
 }
+var own-name = 'solar-beam';
 var clientIndex = 1;
 wss.on('connection', function(ws) {
     var client_uuid = uuid.v4();
